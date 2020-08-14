@@ -1,0 +1,294 @@
+
+
+.good{
+background-color: #1d2029;    
+ height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+
+
+.tried a{
+    color: #C0C0C0;
+    letter-spacing: 2px;
+    display: block;
+  
+}
+
+.tried{
+    color: #fff;
+    display: inline-flex; 
+}
+
+.right{
+    display: inline-flex;
+    list-style: none;
+
+    
+}
+
+
+
+.right li + li{
+       
+     display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+margin-left: 1.5em;
+    list-style: none;
+   background-color: #252b43;
+}
+
+
+.Thanks{
+    display: inline-flex;
+    
+    
+}
+
+#me{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0;
+    display: inline-flex;
+    align-content: space-between;
+}
+
+#me{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0;
+    display: inline-flex;
+    align-content: space-between;
+    word-break: normal;
+}
+
+
+#me a{
+    margin-left: 3px;
+    padding-left: 3px;
+    padding-right: 2px;
+    display: inline;
+    word-break: normal;
+}
+
+#K{
+    padding-left: 45px;
+padding-right: 45px;
+align-content: space-between; 
+    word-wrap: normal;
+}
+
+#K a{
+    margin left: 12px;
+    
+}
+
+#mee a{
+   color: white;
+     margin-left: 12px;
+    display: inline;
+    
+}
+
+#mee h5{
+   display: inline-flex;
+}
+
+.Thanks li{
+   
+}
+
+.Thanks li a{
+    display: inline;
+   
+    
+}
+
+
+.tried li + li{
+    
+     display: block;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 5px;
+margin-left: 1.5em;
+    list-style: none;
+   background-color: #252b43;
+   
+    
+}
+
+.right li{
+  display: block;
+    list-style: none;
+   background-color: #252b43;
+     
+}
+
+
+.Views li{
+    padding:5px;
+}
+
+.Views li a{
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+#likes a{
+    display: inline;
+    
+}
+
+#likess a{
+    display: inline-flex;
+    white-space: normal;
+}
+
+#likess{
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+.tried li{
+    padding-top: 20px;
+    list-style: none;
+     
+    
+}
+
+.up{
+    color:#1EB589;
+}
+
+.down{
+    color: #DC414C
+}
+
+
+.wh{
+    display: block;
+      border: underline;
+    border-spacing: 5em;
+    border-top-width: thick;
+    border-top-style:groove;
+    border-color: #C4032B;
+    
+    
+}
+
+.tried .where{
+
+    padding-left: 75px;
+     padding-right: 75px;
+     display: block;
+    background-color: #252b43;
+    border: underline;
+    border-top-style: groove;
+    border-color: #178FF5;
+}
+
+
+.wher{
+     display: block;
+    border: underline;
+    border-top-style: groove;
+    border-color: #1DA1F2;
+}
+
+.whe{
+     display: block;
+    border: underline;
+    border-top-style: groove;
+    border-color: #EE877E;
+}
+
+.whet{
+    
+    display: block;
+    
+ 
+}
+
+
+
+
+.yep{
+    float: right;
+    color: #C0C0C0;
+   
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightblue;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 10px;
+  left: 4px;
+  bottom: 4px;
+  background-color: darkblue;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
